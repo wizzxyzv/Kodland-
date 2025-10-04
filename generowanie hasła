@@ -1,0 +1,13 @@
+import random 
+marks =  "+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+podaj_dlugosc = int(input("Podaj dlugosc hasla: "))
+
+password = ""
+
+for i in range(podaj_dlugosc):
+    password += random.choice(marks)8
+    
+
+print(password)
+
+
